@@ -1,0 +1,34 @@
+{
+  "name": "Travis-CI-Sandbox",
+  "version": "0.0.1",
+  "description": "Sandbox environment to learn about and practice travis CI",
+  "main": "Gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^1.9.0",
+    "gulp": "^3.8.10",
+    "gulp-if": "^1.2.5",
+    "gulp-nodemon": "^1.0.5",
+    "gulp-shell": "^0.2.11",
+    "karma": "^0.12.31"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-mocha": "^0.1.10",
+    "mocha": "^2.1.0"
+  },
+  "scripts": {
+    "test": "gulp karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrewSouthpaw/Travis-CI-Sandbox.git"
+  },
+  "author": "Andrew Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewSouthpaw/Travis-CI-Sandbox/issues"
+  },
+  "homepage": "https://github.com/AndrewSouthpaw/Travis-CI-Sandbox"
+}
