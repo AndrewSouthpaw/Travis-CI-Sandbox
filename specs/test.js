@@ -7,3 +7,9 @@ describe('a test', function () {
     expect(true).to.equal(true);
   });
 });
+
+describe('should handle changes that break Travis', function () {
+  it('should have app val be true', function () {
+    expect(myApp).to.be.ok();
+  });
+});
