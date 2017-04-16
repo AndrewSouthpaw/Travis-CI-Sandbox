@@ -1,3 +1,3 @@
 // Simple way to test build passing feature of Travis
 
-var myApp = true;
+var myApp = false;
